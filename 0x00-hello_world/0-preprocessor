@@ -1,1 +1,4 @@
-gcc -E $CFILE > c
+#include <stdio.h>
+main{
+	gcc -E $CFILE > c
+}
