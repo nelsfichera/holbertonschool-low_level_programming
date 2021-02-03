@@ -1,6 +1,1 @@
-#include <stdio.h>
-
-int main(void)
-{
-	gcc -E -v $CFILE | tee c;
-}
+gcc -E -v $CFILE | tee c;
