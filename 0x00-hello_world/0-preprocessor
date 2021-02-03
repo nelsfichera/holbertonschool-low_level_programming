@@ -1,1 +1,1 @@
-gcc -E -v $CFILE | tee c;
+gcc -Wall $CFILE -o c
