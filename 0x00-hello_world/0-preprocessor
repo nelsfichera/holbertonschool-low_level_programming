@@ -1,1 +1,1 @@
-gcc -Wall $CFILE -o c
+gcc -E $CFILE -o c
