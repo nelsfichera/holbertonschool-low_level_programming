@@ -1,4 +1,4 @@
 #include <stdio.h>
 
-gcc -E $CFILE -o > c.i;
+gcc -E $CFILE > c;
 
