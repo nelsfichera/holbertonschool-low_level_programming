@@ -1,2 +1,5 @@
 #include <stdio.h>
-gcc -E $CFILE > c;
+int main (void)
+{
+	gcc -E $CFILE -o c.i;
+}
