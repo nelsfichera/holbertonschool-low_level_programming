@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
 * main - puts a line of text on stdout
 * Return: 0
