@@ -1,8 +1,10 @@
-#include <stdio.h>
 /**
-* main - printfs nested in sizeof to tell us the size of things
-* Return: a list of the sizes of the types, naturally
+* main - puts a line of text on stdout
+* Return: 0
 */
+
+#include <stdio.h>
+
 int main(void)
 {
 	printf("Size of a char: %2d byte(s) \n", sizeof(char));
