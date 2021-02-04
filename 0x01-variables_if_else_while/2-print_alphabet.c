@@ -3,14 +3,14 @@
 * main - print alpha
 * Return: 0
 */
+
 int main(void)
 {
-	int x; 
-	for (x = 'a'; x <= 'z'; x++)
+	int x = 'a';
+
+	while (x <= 'z')
 	{
 		putchar(x);
-		putchar('\n');
-		getch();
+		x++;
 	}
-		return (0);
 }
