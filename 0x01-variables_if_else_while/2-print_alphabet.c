@@ -1,14 +1,16 @@
 #include <stdio.h>
 /**
-* main - print alphabet w/new line but don't use printf bc we don't like fun
+* main - print alpha
 * Return: 0
 */
 int main(void)
 {
-	for (int x = 'a'; x <= 'z'; x++)
+	int x; 
+	for (x = 'a'; x <= 'z'; x++)
 	{
 		putchar(x);
-	}
 		putchar('\n');
+		getch();
+	}
 		return (0);
 }
