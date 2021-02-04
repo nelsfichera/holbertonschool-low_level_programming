@@ -6,8 +6,6 @@
 */
 int main(void)
 {
-	char str[51];
-	strcpy(str, "\"Programming is like a building a multilingual puzzle");
-	puts(str);
+	puts("\"Programming is like a building a multilingual puzzle");
 	return (0);
 }
