@@ -1,14 +1,16 @@
-#include <stdio.h> 
+#include <stdio.h>
 /**
 * main - print 0-9
 * Return: 0
 */
 int main(void)
 {
-	int x = 0; 
+	int x = 0;
 
-	while (x <= 9; x++;) 
+	while (x <= 9)
 	{
-		printf("%d",x); 
+		printf("%d", x);
 	}
+	putchar('\n');
+	return (0);
 }
