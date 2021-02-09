@@ -23,7 +23,7 @@ void jack_bauer(void)
 				_putchar(hrs + '0');
 			}
 			_putchar(':');
-			if (mins < 9)
+			if (mins > 9)
 			{
 				_putchar((mins / 10) + '0');
 				_putchar((mins % 10) + '0');
