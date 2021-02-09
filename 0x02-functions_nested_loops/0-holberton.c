@@ -9,9 +9,9 @@ int main(void)
 	int i;
 	char *text = "Holberton\n";
 
-	for (i = 0; i < 10; i++) 
+	for (i = 0; i < 10; i++)
 	{
-		_putchar(*(text+i));
+		_putchar(*(text + i));
 	}
 	return (0);
 }
