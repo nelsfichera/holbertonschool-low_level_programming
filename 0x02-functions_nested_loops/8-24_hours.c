@@ -8,9 +8,9 @@ void jack_bauer(void)
 	int hrs;
 	int mins;
 
-	for (hrs = 0; hrs < 24; hrs++)
+	for (hrs = 0; hrs <= 23; hrs++)
 	{
-		for (mins = 0; mins < 60; mins++)
+		for (mins = 0; mins <= 59; mins++)
 		{
 			if (hrs >  9)
 			{
