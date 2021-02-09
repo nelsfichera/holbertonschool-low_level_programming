@@ -1,31 +1,39 @@
+#include "holberton.h"
+/**
+* jack_bauer - every minute of every day
+* Return: void
+*/
 void jack_bauer(void)
 {
-	int h1;
-	int h2;
-	int m1;
-	int m2;
+	int hrs;
+	int mins;
 
-	while (h1 <= '2')
+	for (hrs = 0; hrs < 24; hrs++)
 	{
-		_putchar(h1);
-		h1++;
-
-	while (h2 <= '9')
-	{
-		_putchar(h2);
-		h2++;
-
-	while (m1 < '6')
-	{
-		_putchar(m1);
-		m1++;
-	
-	while (m2 <= '9'){
-		_putchar(m2);
-		m++;
-	}
-	}
-	_putchar(':');
-	}
+		for (mins = 0; mins < 60; mins++)
+		{
+			if (hrs >  9)
+			{
+				_putchar((hrs / 10) + '0');
+				_putchar((hrs % 10) + '0');
+			}
+			else
+			{
+				_putchar('0');
+				_putchar(hrs + '0');
+			}
+			_putchar(':');
+			if (mins < 9)
+			{
+				_putchar((mins / 10) + '0');
+				_putchar((mins % 10) + '0');
+			}
+			else
+			{
+				_putchar('0');
+				_putchar(mins + '0');
+			}
+			_putchar('\n');
+		}
 	}
 }
