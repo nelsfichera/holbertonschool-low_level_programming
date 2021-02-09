@@ -1,6 +1,8 @@
 #include "holberton.h" 
 /**
 * print_alphabet_x10 - print alpha x10
+* @i: count to ten 
+* @x: make an alphabet
 * Return: void
 */
 void print_alphabet_x10(void)
