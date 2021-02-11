@@ -19,4 +19,16 @@ void fizz_buzz(void)
 			printf("%d", i);
 		printf(" ");
 	}
+	putchar('\n');
+}
+
+/**
+* main - calls fizz_buzz
+* Return: 0
+*/
+
+int main(void)
+{
+	fizz_buzz();
+	return (0);
 }
