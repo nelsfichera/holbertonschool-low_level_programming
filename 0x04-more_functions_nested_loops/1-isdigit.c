@@ -5,10 +5,10 @@
  * Return: 1 if yes 0 if no
  */
 
-int _isdigit(char digit)
+int _isdigit(int c)
 {
 
-	if (digit >= '0' && digit <= '9')
+	if (c >= '0' && c <= '9')
 		return (1);
 	else
 		return (0);
