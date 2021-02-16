@@ -12,9 +12,9 @@ void puts_half(char *str)
 	{
 		i++;
 	}
-	for (x =0; x < i; x++)
+	for (x = 0; x < i; x++)
 	{
-		if (x (i - 1) / 2)
+		if (x > (i - 1) / 2)
 		{
 			_putchar(str[x]);
 		}
