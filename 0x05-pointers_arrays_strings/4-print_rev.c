@@ -1,15 +1,15 @@
 #include "holberton.h"
 /**
 * _strlen2 - strlen the remix (bootleg)
-* @x: str to len 
+* @x: str to len
 * Return: len
 */
 
-int _strlen2(char *x);
+int _strlen2(char *x)
 {
-	int = count;
+	int count = 0;
 
-	while(*(x + count))
+	while (*(x + count))
 	{
 		count++;
 	}
@@ -17,16 +17,16 @@ int _strlen2(char *x);
 }
 
 /**
-  3 * print_rev - twin peaks it
-  4 * @s: the string 
-  5 * Return: v0iddddddd
-  6 */
+* print_rev - twin peaks it
+* @s: the string
+* Return: v0iddddddd
+*/
 
 void print_rev(char *s)
 {
 	int len = _strlen2(s);
 
-	while(*(s + len))
+	while (*(s + len))
 	{
 		_putchar(*(s + len));
 		len--;
