@@ -18,6 +18,6 @@ void print_array(int *a, int n)
 			printf("%d\n", y);
 		else
 			printf("%d, ", y);
+		x++;
 	}
-	x++;
 }
