@@ -1,4 +1,4 @@
-include "holberton.h"
+#include "holberton.h"
 /**
 * _memcpy - copies memory area
 * @n: bytes from memory
@@ -8,9 +8,11 @@ include "holberton.h"
 */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	for (n = 0; n != (void *)0; n++)
+	int x; /* for iteration */
+
+	for (x = 0; x != '\0' ; x++)
 	{
 		dest[n] = src[n];
 	}
-	return (dest);
+	return (&dest[n]);
 }
