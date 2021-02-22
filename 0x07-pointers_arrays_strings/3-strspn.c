@@ -10,7 +10,7 @@ unsigned int _strspn(char *s, char *accept)
 	unsigned int i; /*for iteration*/
 	unsigned int j; /*for iteration*/
 
-	for (i = 0; accept[x] != '0' i++)
+	for (i = 0; accept[i] != '0'; i++)
 	{
 		for (j = 0; s[j] != '0'; j++)
 		{
@@ -20,5 +20,5 @@ unsigned int _strspn(char *s, char *accept)
 			}
 		}
 	}
-	return (NULL);
+	return (0);
 }
