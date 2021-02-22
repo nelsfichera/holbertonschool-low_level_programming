@@ -5,5 +5,7 @@
 * @to: pointer which sets value
 * Return: void
 */
-void set_string(char **S, char *to)
+void set_string(char **s, char *to)
 {
+	*s = to;
+}
