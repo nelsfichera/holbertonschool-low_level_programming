@@ -11,12 +11,12 @@ int prime2prime(int n, int x)
 		return (0);
 	if (x > n / 2)
 		return (1);
-	return (prime2primse(n, x + 1));
+	return (prime2prime(n, x + 1));
 }
 
 /**
 * is_prime_number - is it prime or not?
-* @n: the number 
+* @n: the number
 * Return: int
 */
 int is_prime_number(int n)
@@ -26,7 +26,6 @@ int is_prime_number(int n)
 
 	if (n < 2)
 		return (0);
-	result = prime2prime(n,x);
+	result = prime2prime(n, x);
 	return (result);
-}
 }
