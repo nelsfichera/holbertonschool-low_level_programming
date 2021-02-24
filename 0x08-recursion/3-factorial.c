@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
 * factorial - reutn the factorial of a given number
-* @n: the number 
+* @n: the number
 * Return: int
 */
-int factorial (int n)
+int factorial(int n)
 {
 	if (n < 0)
 	{
@@ -14,5 +14,5 @@ int factorial (int n)
 	{
 		return (1);
 	}
-	return (n * factorial (n - 1));
+	return (n * factorial(n - 1));
 }
