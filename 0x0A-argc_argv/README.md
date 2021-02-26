@@ -1,0 +1,5 @@
+0. Write a program that prints its name followed by a new line. If the file is renamed, the new name should be printed without needing to be recompiled, and the path can be present before the name of the program.
+1. Write a program that prints the number of arguments passed by it, followed by a new line. 
+2. Write a program that prints all of the arguments it receives, including the first one, with one argument printed per line and ending with a new line.
+3. Write a program that multiplies two numbers, and prints the result followed by a new line. The two numbers and the result can be stored as an integer. If the program does not receive two arguments, the program should print "Error" with a new line and return 1. 
+4. Write a program that adds positive numbers. Print the result followed by a new line. If no number is passed to the program, print 0 followed by a new line. If the program receives symbols that are not digits, print Error, followed by a new line, and return 1. You can asusme all numbers and addition of the numbers can be stored in an int. 
