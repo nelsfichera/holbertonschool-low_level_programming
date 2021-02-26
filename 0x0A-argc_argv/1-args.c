@@ -5,7 +5,7 @@
 * @argv: pointer to the arguments
 * Return: 0
 */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	if (*argv)
 		printf("%d\n", --argc);
