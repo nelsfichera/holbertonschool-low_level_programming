@@ -27,12 +27,12 @@ char *str_concat(char *s1, char *s2)
 	if (kitty == NULL)
 		return (NULL);
 
-	for (x = 0; x <= size1; x++)
+	for (x = 0; x < size1; x++)
 	{
 		kitty[x] = s1[x];
 	}
 
-	for (; x <= (size1 + size2); x++)
+	for (; x < (size1 + size2); x++)
 	{
 		kitty[x] = s2[x - size1];
 	}
