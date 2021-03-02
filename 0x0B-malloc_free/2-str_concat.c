@@ -24,18 +24,18 @@ char *str_concat(char *s1, char *s2)
 		size2++;
 
 	kitty = malloc((size1 + size2 + 1) * sizeof(char));
+	if (kitty == NULL)
+		return (NULL);
 
-	if (kitty != NULL)
+	for (x = 0; x < size1; x++)
 	{
-		for (x = 0; x < size1; x++)
-		{
-			kitty[x] = s1[x];
-		}
-		for (; x < (size1 + size2); x++)
-		{
-			kitty[x] = s1[x - size1];
-		}
-		return (kitty);
+		kitty[x] = s1[x];
 	}
-	return (NULL);
+
+	for (; x < (size1 + size2); x++)
+	{
+		kitty[x] = s1[x - size1];
+	}
+	kitty[x] = '\0';
+	return (kitty);
 }
