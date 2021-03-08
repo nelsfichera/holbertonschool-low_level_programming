@@ -1,0 +1,6 @@
+0. Define a new type "struct dog" with the following elements: name (type char \*), age (type float), owner (type char \*) in the dog.h file. 
+1. Write a function that initializes a variable of type struct dog. 
+2. Write a function that prints a struct dog. 
+3. Define a new type dog-t as a new name for the type struct dog in the dog.h file. 
+4. Write a function that creates a new dog. 
+5. Write a function that frees dogs. 
