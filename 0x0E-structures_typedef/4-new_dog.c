@@ -47,6 +47,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 	char *owncopy;
 
 	hotdog = malloc(sizeof(dog_t));
+	if (hotdog == NULL)
+	{
+		free(hotdog);
+		return (NULL);
+	}
 	hotdog->age = age;
 
 	if (name)
