@@ -43,13 +43,18 @@ char *_strcpy(char *dest, char *src)
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *hotdog;
-	char *namecopy;
-	char *owncopy;
+	char *namecopy = NULL;
+	char *owncopy = NULL;
 
 	hotdog = malloc(sizeof(dog_t));
 
-	if (hotdog == NULL)
+	if (hotdog == NULL || namecopy == NULL || owncopy == NULL)
+	{
+		free(hotdog);
+		free(namecopy);
+		free(owncopy);
 		return (NULL);
+	}
 
 	hotdog->age = age;
 
