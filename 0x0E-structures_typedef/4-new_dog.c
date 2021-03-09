@@ -62,11 +62,4 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	return (hotdog);
 
-	if (hotdog == NULL || namecopy == NULL || owncopy == NULL)
-	{
-		free(hotdog);
-		free(namecopy);
-		free(owncopy);
-		return (NULL);
-	}
 }
