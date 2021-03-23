@@ -6,15 +6,17 @@
 */
 int sum_listint(listint_t *head)
 {
-	listint_t *scout = head;
 	int sum = 0;
 
 	if (scout == NULL)
 		return (0);
-	while (scout)
+	if (head)
 	{
-		sum += scout->n;
-		scout = scout->n;
+		while (scout)
+		{
+		sum += head->n;
+		head = head->n;
+		}
 	}
 	return (sum);
 }
