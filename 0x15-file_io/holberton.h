@@ -1,7 +1,6 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 /*open*/
-#include <sts/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
 /*close*/
