@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
-	checker = file_read(argv[1], argv[2]);
+	checker = copy_file(argv[1], argv[2]);
 	if (checker == 1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
