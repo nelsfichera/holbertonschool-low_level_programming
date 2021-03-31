@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 */
 int copy_file(char *file_from, char *file_to)
 {
-	char buffer[1024];
+	char *buffer[1024];
 	int fd, fd1, check;
 
 	fd = open(file_from, O_RDONLY);
